@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Departments | Heal Yeah!</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Poppins:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg sticky-top py-2"
+      id="mainNav"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand d-flex align-items-center gap-2"
+          href="index.html"
+        >
+          <img src="other pictures/logo.png" alt="Heal Yeah!" height="44" />
+          <span class="brand-word">HEAL <span>YEAH!</span></span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Care</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item active" href="departments.html"
+                    >Departments</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="services.html">Services</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="doctors.html">Doctors</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="locations.html">Locations</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Resources</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="papers.html">Papers</a></li>
+                <li>
+                  <a class="dropdown-item" href="health-tips.html"
+                    >Health tips</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="gallery.html">Gallery</a>
+                </li>
+                <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="careers.html">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+              <button
+                class="btn btn-primary px-4"
+                data-bs-toggle="modal"
+                data-bs-target="#bookModal"
+              >
+                Book now
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <header class="page-hero">
+        <div class="container position-relative" style="z-index: 1">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-2">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Departments
+              </li>
+            </ol>
+          </nav>
+          <h1>Departments</h1>
+          <p class="mb-0">Every specialty, one shared chart.</p>
+        </div>
+      </header>
+      <section id="departments" class="section bg-cream">
+        <div class="container">
+          <p class="kicker">Departments</p>
+          <h2 class="section-title">Every specialty, one shared chart.</h2>
+          <p class="lede mb-5">
+            A referral between departments carries your full history with it —
+            no re-explaining, no repeat scans.
+          </p>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="card dept-card p-4">
+                <div class="dept-icon mb-3">
+                  <i class="bi bi-clipboard2-pulse"></i>
+                </div>
+                <h3>Primary Care</h3>
+                <p class="mb-0 small text-secondary">
+                  Annual physicals, screenings, and a clinician who tracks your
+                  baseline over years.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card dept-card p-4">
+                <div class="dept-icon mb-3"><i class="bi bi-activity"></i></div>
+                <h3>Cardiology</h3>
+                <p class="mb-0 small text-secondary">
+                  Risk assessment, monitoring, and follow-up for heart and blood
+                  pressure conditions.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card dept-card p-4">
+                <div class="dept-icon mb-3">
+                  <i class="bi bi-balloon-heart"></i>
+                </div>
+                <h3>Pediatrics</h3>
+                <p class="mb-0 small text-secondary">
+                  Well-child visits, vaccination schedules, and growth tracking
+                  from birth on.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card dept-card p-4">
+                <div class="dept-icon mb-3">
+                  <i class="bi bi-droplet-half"></i>
+                </div>
+                <h3>Dermatology</h3>
+                <p class="mb-0 small text-secondary">
+                  Skin checks, chronic skin conditions, and minor in-office
+                  procedures.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card dept-card p-4">
+                <div class="dept-icon mb-3">
+                  <i class="bi bi-person-arms-up"></i>
+                </div>
+                <h3>Physical therapy</h3>
+                <p class="mb-0 small text-secondary">
+                  Post-injury and post-surgical recovery plans built around your
+                  goals.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card dept-card p-4">
+                <div class="dept-icon mb-3">
+                  <i class="bi bi-chat-heart"></i>
+                </div>
+                <h3>Behavioral health</h3>
+                <p class="mb-0 small text-secondary">
+                  Counseling and psychiatric care, coordinated with your primary
+                  clinician.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-4">
+              <p class="kicker">What we treat</p>
+              <h2 class="section-title">Conditions by department.</h2>
+              <p class="lede">
+                Not sure which department fits? Start with primary care and we
+                will refer you.
+              </p>
+            </div>
+            <div class="col-lg-8">
+              <div
+                class="accordion shadow-sm rounded-4 overflow-hidden"
+                id="deptAcc"
+              >
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#d0"
+                    >
+                      Primary Care
+                    </button>
+                  </h3>
+                  <div
+                    id="d0"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#deptAcc"
+                  >
+                    <div class="accordion-body">
+                      Check-ups, diabetes and hypertension follow-up,
+                      vaccinations, minor illnesses.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#d1"
+                    >
+                      Cardiology
+                    </button>
+                  </h3>
+                  <div
+                    id="d1"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#deptAcc"
+                  >
+                    <div class="accordion-body">
+                      Chest discomfort, high blood pressure, palpitations,
+                      post-heart-attack recovery.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#d2"
+                    >
+                      Pediatrics
+                    </button>
+                  </h3>
+                  <div
+                    id="d2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#deptAcc"
+                  >
+                    <div class="accordion-body">
+                      Newborn care, immunizations, growth concerns, childhood
+                      infections.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#d3"
+                    >
+                      Dermatology
+                    </button>
+                  </h3>
+                  <div
+                    id="d3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#deptAcc"
+                  >
+                    <div class="accordion-body">
+                      Acne, eczema, rashes, moles, minor skin procedures.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#d4"
+                    >
+                      Physical therapy
+                    </button>
+                  </h3>
+                  <div
+                    id="d4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#deptAcc"
+                  >
+                    <div class="accordion-body">
+                      Sprains, back pain, post-surgery rehab, sports injuries.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#d5"
+                    >
+                      Behavioral health
+                    </button>
+                  </h3>
+                  <div
+                    id="d5"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#deptAcc"
+                  >
+                    <div class="accordion-body">
+                      Anxiety, depression, stress, sleep concerns, counseling.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="pt-5 pb-3">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <a
+              class="d-flex align-items-center gap-2 mb-3 text-decoration-none"
+              href="index.html"
+            >
+              <img src="other pictures/logo.png" alt="Heal Yeah!" height="44" />
+              <span class="brand-word">HEAL <span>YEAH!</span></span></a
+            >
+            <p class="small mb-3" style="max-width: 36ch">
+              We provide compassionate, high-quality healthcare with a personal
+              touch. Your health is our priority.
+            </p>
+            <div class="social d-flex gap-2">
+              <a href="#" aria-label="Facebook"
+                ><i class="bi bi-facebook"></i></a
+              ><a href="#" aria-label="Instagram"
+                ><i class="bi bi-instagram"></i></a
+              ><a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a
+              ><a href="#" aria-label="YouTube"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h6>Care</h6>
+            <ul class="list-unstyled small">
+              <li><a href="departments.html">Departments</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="doctors.html">Doctors</a></li>
+              <li><a href="locations.html">Locations</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h6>Resources</h6>
+            <ul class="list-unstyled small">
+              <li><a href="papers.html">Papers</a></li>
+              <li><a href="health-tips.html">Health tips</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h6>Company</h6>
+            <ul class="list-unstyled small">
+              <li><a href="about.html">About</a></li>
+              <li><a href="careers.html">Careers</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="appointment.html">Appointments</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h6>Contact us</h6>
+            <ul class="list-unstyled small">
+              <li class="mb-1">
+                <i class="bi bi-geo-alt-fill text-primary me-1"></i>Blk 123
+                Katapatan Yarn
+              </li>
+              <li class="mb-1">
+                <i class="bi bi-telephone-fill text-primary me-1"></i>+63 123
+                456 789
+              </li>
+              <li>
+                <i class="bi bi-envelope-fill text-primary me-1"></i
+                >healyeah@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4" style="border-color: rgba(255, 255, 255, 0.2)" />
+        <div
+          class="d-flex flex-column flex-md-row justify-content-between small gap-2"
+        >
+          <span>©2026 HEAL YEAH!. All rights reserved.</span
+          ><span
+            ><a href="privacy.html">Privacy Policy</a> &nbsp;|&nbsp;
+            <a href="privacy.html#terms">Terms of Service</a> &nbsp;|&nbsp;
+            <a href="privacy.html#access">Accessibility</a></span
+          >
+        </div>
+      </div>
+    </footer>
+    <button
+      class="btn btn-primary rounded-circle to-top"
+      id="toTop"
+      aria-label="Back to top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+    <div
+      class="modal fade"
+      id="bookModal"
+      tabindex="-1"
+      aria-labelledby="bookTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header border-0">
+            <h2 class="modal-title h4" id="bookTitle">Book an appointment</h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body pt-0">
+            <p class="small text-secondary">
+              Pick how you'd like to start. A triage nurse can route you in
+              under two minutes.
+            </p>
+            <div class="d-grid gap-2">
+              <a href="appointment.html" class="btn btn-primary"
+                ><i class="bi bi-pencil-square me-2"></i>Fill out the request
+                form</a
+              ><a href="tel:+631234567890" class="btn btn-outline-primary"
+                ><i class="bi bi-telephone me-2"></i>Call the triage line</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="mapModal"
+      tabindex="-1"
+      aria-labelledby="mapTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header border-0">
+            <h2 class="modal-title h5" id="mapTitle">Location</h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body pt-0">
+            <div class="ratio ratio-16x9 rounded-3 bg-light border">
+              <div
+                class="d-flex align-items-center justify-content-center text-secondary text-center"
+              >
+                <span
+                  ><i class="bi bi-map fs-1 d-block"></i>Embed a Google Maps
+                  iframe here</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="picModal"
+      tabindex="-1"
+      aria-labelledby="picTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content rounded-4">
+          <div class="modal-header border-0">
+            <h2 class="modal-title h5" id="picTitle">Photo</h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body pt-0">
+            <div
+              class="ratio ratio-16x9 rounded-3 g1 d-flex align-items-center justify-content-center text-white fs-1"
+            >
+              <i class="bi bi-image"></i>
+            </div>
+            <p class="small text-secondary mt-2 mb-0" id="picCap"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3"
+    >
+      <div
+        id="okToast"
+        class="toast text-bg-success border-0"
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+      >
+        <div class="d-flex">
+          <div class="toast-body" id="toastMsg">Request sent.</div>
+          <button
+            type="button"
+            class="btn-close btn-close-white me-2 m-auto"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
